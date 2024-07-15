@@ -409,9 +409,10 @@ animation: shimmer 1.5s infinite linear;
   }
   .comment-item{
   
-    height: 180px;
+    height: 210px;
   
   }
+ 
  
 }
 @media only screen and (max-width:600px) {
