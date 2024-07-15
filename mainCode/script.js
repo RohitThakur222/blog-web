@@ -109,7 +109,7 @@ document.addEventListener('DOMContentLoaded', function () {
       <div class='details'>
       <div class=profile>
         <div>
-          <img src="/src/prof.jpg" alt="">
+          <img src="../mainCode/src/prof.jpg" alt="">
         </div>
         <div>
            <h2>ID : ${blog.id}</h2>
