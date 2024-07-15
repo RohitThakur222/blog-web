@@ -70,7 +70,7 @@ document.addEventListener('DOMContentLoaded', function () {
       blogItem.innerHTML = `
         <div class=profile>
           <div>
-            <img src="../src/prof.jpg" alt="">
+            <img src="/src/prof.jpg" alt="">
           </div>
           <div>
              <h2>ID : ${blog.id}</h2>
@@ -109,7 +109,7 @@ document.addEventListener('DOMContentLoaded', function () {
       <div class='details'>
       <div class=profile>
         <div>
-          <img src="../src/prof.jpg" alt="">
+          <img src="/src/prof.jpg" alt="">
         </div>
         <div>
            <h2>ID : ${blog.id}</h2>
@@ -141,7 +141,7 @@ document.addEventListener('DOMContentLoaded', function () {
       const commentItem = document.createElement('div');
       commentItem.className = 'comment-item';
       commentItem.innerHTML = `
-          <h3><img src="../src/prof.jpg" alt=""> @:  ${comment.email} <span> 12 days ago</span></h3>
+          <h3><img src="/src/prof.jpg" alt=""> @:  ${comment.email} <span> 12 days ago</span></h3>
           <h4>${comment.name} </h4>
           <p>${comment.body}</p>
           <div class='like'>
